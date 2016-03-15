@@ -17,7 +17,7 @@ Stack.prototype.pop = function(){
 }
 
 Stack.prototype.show = function(){
-	return this.storage;
+	console.log(this.storage);
 }
 
 var undoOp = new Stack();
